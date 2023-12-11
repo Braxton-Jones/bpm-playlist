@@ -1,0 +1,32 @@
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.app_wrapper{
+    display: grid;
+    grid-template-columns: .6fr .4fr;
+    grid-auto-rows: auto;
+    gap: 50px;
+    border-radius: 10px;
+    height: calc(100vh - 50px); // Subtract the top and bottom margins
+    width: calc(100vw - 150px); // Subtract the left and right margins
+}
+
+.playlist_editor{
+    display: flex;
+    flex-direction: column;
+    background-color: #aa60ff;
+    border-radius: 10px;
+}
+
+.playlist_settings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #aa60ff;
+    border-radius: 10px;
+
+}
